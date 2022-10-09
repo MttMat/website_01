@@ -1,0 +1,66 @@
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="https://image.shutterstock.com/image-vector/creative-minimalist-design-university-logo-600w-1915873774.jpg" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <!-- content header -->
+        <div class="content-header">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo at vel veniam deleniti <br>quaerat reiciendis porro modi beatae est reprehenderit.</p>
+            <a href="">Visit us to know more</a>
+        </div>
+    </section>
+
+    <!-- Course -->
+     <section class="course">
+        <h2>Courses we offer</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, nemo!</p>
+        <div class="row">
+            <div class="program">
+                <h3>Bachelor programs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ad voluptatum. Nihil labore maxime nostrum deleniti, fuga facilis numquam est?</p>
+            </div>
+            <div class="program">
+                <h3>Master programs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ad voluptatum. Nihil labore maxime nostrum deleniti, fuga facilis numquam est?</p>
+            </div>
+            <div class="program">
+                <h3>PhD programs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ad voluptatum. Nihil labore maxime nostrum deleniti, fuga facilis numquam est?</p>
+            </div>
+        </div>
+
+    </section>
+
+<!-- Campus -->
+    <section class="campus">
+      <h2>Our Global Campus</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, distinctio.</p>
+      <div class="campus_pictures_wrapper">
+        <div class="picture" id="singapore"><h3>Singapore</h3></div>
+        <div class="picture" id="rome"><h3>Rome</h3></div>
+        <div class="picture" id="new_york"><h3>New York</h3></div>
+      </div>
+    </section>
+
+
+<!-- JavaScript for Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-170px";
+    }
+</script>
